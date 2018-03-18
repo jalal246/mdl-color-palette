@@ -1,5 +1,5 @@
 {
-  "name": "material-color-palette",
+  "name": "mdl-color-palette",
   "version": "1.0.0",
   "description": "generate random color from material color palette",
   "main": "dist/mcp.commonjs2.js",
