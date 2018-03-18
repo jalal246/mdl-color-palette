@@ -1,0 +1,28 @@
+{
+  "name": "material-color-palette",
+  "version": "1.0.0",
+  "description": "generate random color from material color palette",
+  "main": "dist/mcp.commonjs2.js",
+  "scripts": {
+    "test": "mocha *.spec.js --require babel-register"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-istanbul": "^4.1.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "mocha": "^5.0.4"
+  },
+  "files": ["dist", "README.md"],
+  "keywords": ["material-color-palette", "randoms", "mdl", "color"],
+  "author": {
+    "name": "Jalal Maskoun",
+    "email": "jimmy002020@gmail.com"
+  },
+  "license": "MIT"
+}
