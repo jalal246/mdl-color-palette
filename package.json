@@ -1,26 +1,34 @@
 {
   "name": "mdl-color-palette",
   "version": "1.0.0",
-  "main": "dist/mcp.commonjs2.js",
+  "main": "dist/mdlColorPalette.cjs",
   "repository": "https://github.com/jalal246/mdl-color-palette.git",
   "author": "Jalal Maskoun <jimmy002020@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "builderz",
+    "prepublish": "yarn build"
+  },
+  "builderz": {
+    "formats": [
+      "cjs"
+    ],
+    "minify": false
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
     "babel-jest": "^26.6.3",
-    "chai": "^4.2.0",
+    "builderz": "^0.11.0",
     "eslint": "^7.15.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.0.0",
     "eslint-plugin-import": "^2.22.1",
-    "jest": "^26.6.3",
-    "mocha": "^8.2.1"
+    "jest": "^26.6.3"
   },
   "files": [
+    "src",
     "dist",
     "README.md"
   ],
@@ -30,7 +38,5 @@
     "mdl",
     "color"
   ],
-  "dependencies": {
-    "cross-env": "^7.0.3"
-  }
+  "dependencies": {}
 }
