@@ -1,43 +1,3 @@
-# mdl-color-palette
-
-> Generate Color from material design palette
-
-## Install
-
-```sh
-npm install mdl-color-palette
-```
-
-## API
-
-### colorDice({options})
-
-Generate random color from the color pallet
-
-`options`
-
-- `isLight:? Boolean` to randomly select light color.
-- `isDark:? Boolean` to randomly select dark random color.
-
-### Example
-
-```js
-import { colorDice } from "mdl-color-palette";
-
-const randomColor = colorDice();
-
-console.log(randomColor);
-//  random color from  material color palette
-//  in hex code for example : '#f06292'
-```
-
-### Colors
-
-It returns a color based on name+number.
-
-Available Colors
-
-```json
 {
   "red-50": "#ffebee",
   "red-100": "#ffcdd2",
@@ -229,8 +189,3 @@ Available Colors
   "blue-grey-800": "#37474f",
   "blue-grey-900": "#263238"
 }
-```
-
-## License
-
-This project is licensed under the [MIT License](https://github.com/jalal246/mdl-color-palette/eblob/master/LICENSE)
