@@ -31,11 +31,11 @@ console.log(randomColor);
 //  in hex code for example : '#f06292'
 ```
 
-### colors: Returns a color based on name+number
+### Colors
 
-Return array of required color
+It returns a color based on name+number.
 
-`Available Colors`
+Available Colors
 
 ```json
 {
