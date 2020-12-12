@@ -35,6 +35,7 @@ Return array of required color
 
 `Available Colors`
 
+```json
 "red-50": "#ffebee",
 "red-100": "#ffcdd2",
 "red-200": "#ef9a9a",
@@ -224,6 +225,7 @@ Return array of required color
 "blue-grey-700": "#455a64",
 "blue-grey-800": "#37474f",
 "blue-grey-900": "#263238"
+```
 
 ## License
 
