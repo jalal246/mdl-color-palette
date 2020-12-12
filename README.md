@@ -1,4 +1,4 @@
-> :rainbow: **Generate Color from material design [color palette](https://material.io/guidelines/style/color.html#color-color-palette)**
+> :rainbow: Generate Color from material design [palette](https://material.io/guidelines/style/color.html#color-color-palette)
 
 ## Install
 
@@ -30,7 +30,7 @@ Generate random color.
 `options`
 
 * `color` string, one of the available colors.
-* `islight` Boolean, if true, will select light random color.
+* `isLight` Boolean, if true, will select light random color.
 * `isDark` Boolean, if true, will select dark random color.
 
 ### color
@@ -41,8 +41,8 @@ Return array of required color
 
 * RED
 * PINK
-* PURPULE
-* DEPP_PURPULE
+* PURPLE
+* DEPP_PURPLE
 * INDIGO
 * BLUE
 * LIGHT_BLUE
