@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test all palette Tests palette exists in row data 1`] = `
+exports[`Test all palette in source Tests palette exists in row data 1`] = `
 Object {
   "AMBER": Array [
     "#fff8e1",
@@ -232,7 +232,7 @@ Object {
 }
 `;
 
-exports[`Test all palette Tests palette generated in JSON 1`] = `
+exports[`Test all palette in source Tests palette generated in JSON 1`] = `
 Object {
   "amber-100": "#ffecb3",
   "amber-200": "#ffe082",
