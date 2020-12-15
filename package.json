@@ -1,6 +1,6 @@
 {
   "name": "mdl-color-palette",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "dist/mdlColorPalette.cjs",
   "repository": "https://github.com/jalal246/mdl-color-palette.git",
   "author": "Jalal Maskoun <jimmy002020@gmail.com>",
