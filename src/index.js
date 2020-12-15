@@ -1,4 +1,4 @@
-import * as colors from "./colors.json";
+/* eslint-disable import/prefer-default-export */
 import colorDice from "./colorDice";
 
-export { colors, colorDice };
+export { colorDice };

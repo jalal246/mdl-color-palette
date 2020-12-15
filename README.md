@@ -33,7 +33,14 @@ console.log(randomColor);
 
 ### Colors
 
-It returns a color based on name+number.
+It returns a color based on name+number. It works with autocomplete and it can
+be handled in production correctly with tree shaking.
+
+```js
+import colors from "mdl-color-palette/colors.json";
+
+colors["amber-300"]; // "#ffd54f"
+```
 
 Available Colors
 
